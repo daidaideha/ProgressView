@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressView">
+        <attr name="shaderStartColor" format="color" />
+        <attr name="shaderEndColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="startAngle" format="integer" />
+        <attr name="fullStrokeWidth" format="dimension" />
+        <attr name="emptyStrokeWidth" format="dimension" />
+        <attr name="colorOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="leftTopRight" value="2" />
+            <enum name="leftBottomRight" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
